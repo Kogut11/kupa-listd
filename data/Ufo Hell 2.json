@@ -1,0 +1,17 @@
+{
+    "id": 107551530,
+    "name": "Sample Level 3",
+    "author": "max528XDX",
+    "creators": ["max528XDX"],
+    "verifier": "MayXaX",
+    "verification": "https://youtu.be/lyPCDuG7eQE?si=G_Ps1H1DeZOlAR47",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "FJKR",
+            "link": "https://youtu.be/kCba0LxqW_s",
+            "percent": 100,
+            "hz": 144
+        }
+    ]
+}
