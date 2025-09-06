@@ -7,11 +7,11 @@
     "verification": "https://youtu.be/OATNYEzVFcc?si=gMqaZWNZW1dOnOsf",
     "percentToQualify": "100",
     "records": [
-       {
+        {
             "user": "Aelaexaendaer",
             "link": "https://youtu.be/nCosecXF_o4",
             "percent": 100,
-            "Hz": 60
+            "hz": 60
         }
     ]
 }
