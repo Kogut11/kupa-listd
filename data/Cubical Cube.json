@@ -31,5 +31,11 @@
             "percent": 100,
             "hz": 200
         }
+        {
+            "user": "melon",
+            "link": "",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
