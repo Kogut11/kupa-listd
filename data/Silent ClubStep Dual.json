@@ -7,5 +7,17 @@
     "verification": "https://youtu.be/t4FN-zsop2Y",
     "percentToQualify": "100",
     "records": [
+        {
+            "user": "MayXaX",
+            "link": "",
+            "percent": 100,
+            "hz": 200
+        },
+        {
+            "user": "blendro",
+            "link": "",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
