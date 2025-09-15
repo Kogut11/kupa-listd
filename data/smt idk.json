@@ -24,6 +24,12 @@
             "link": "",
             "percent": 100,
             "hz": 144  
+        },
+        {
+            "user": "puufy",
+            "link": "",
+            "percent": 100,
+            "hz": 60  
         }
     ]
 }
