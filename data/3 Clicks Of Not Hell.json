@@ -54,6 +54,12 @@
             "link": "",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "puufy",
+            "link": "",
+            "percent": 100,
+            "hz": 60
         }
     ]
 }
