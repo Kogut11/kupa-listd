@@ -12,6 +12,12 @@
             "link": "",
             "percent": 100,
             "hz": 240  
+        },
+        {
+            "user": "puufy",
+            "link": "https://youtu.be/WuV7uToCu34",
+            "percent": 100,
+            "hz": 60  
         }
     ]
 }
