@@ -18,6 +18,12 @@
             "link": "https://youtu.be/85Mh00cRnGM",
             "percent": 100,
             "hz": 60  
+        },
+        {
+            "user": "Symm.",
+            "link": "",
+            "percent": 100,
+            "hz": 144  
         }
     ]
 }
