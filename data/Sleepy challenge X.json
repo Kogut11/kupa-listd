@@ -7,17 +7,23 @@
     "verification": "https://youtu.be/Hb9sVNPtbe0",
     "percentToQualify": "100",
     "records": [
-       {
+        {
             "user": "rkxlol",
             "link": "https://youtu.be/wBaULyFQmP4",
             "percent": 100,
             "hz": 60
-       },
-       {
+        },
+        {
             "user": "puufy",
             "link": "",
             "percent": 100,
             "hz": 60
+        }
+        {
+            "user": "Symm.",
+            "link": "",
+            "percent": 100,
+            "hz": 144
         }
     ]
 }
