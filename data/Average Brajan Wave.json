@@ -7,5 +7,17 @@
     "verification": "https://youtu.be/k8tklnTY0xY",
     "percentToQualify": "100",
     "records": [
+        {
+            "user": "blendro",
+            "link": "",
+            "percent": 100,
+            "hz": 240  
+        },
+        {
+            "user": "Aelaexaendaer",
+            "link": "https://youtu.be/Bp24P73Vg54",
+            "percent": 100,
+            "hz": 60  
+        }
     ]
 }
