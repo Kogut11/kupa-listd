@@ -3,15 +3,15 @@
     "name": "Silent ClubStep Dual",
     "author": "IHATEPentagons",
     "creators": ["IHATEPentagons"],
-    "verifier": "yogurt11",
+    "verifier": "MayXaX",
     "verification": "https://youtu.be/y5BqC-fIcIY",
     "percentToQualify": "100",
     "records": [
         {
-            "user": "MayXaX",
-            "link": "",
+            "user": "yogurt11",
+            "link": "https://youtu.be/t4FN-zsop2Y",
             "percent": 100,
-            "hz": 200
+            "hz": 240
         },
         {
             "user": "blendro",
