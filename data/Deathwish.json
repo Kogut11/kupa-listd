@@ -7,5 +7,23 @@
     "verification": "https://youtu.be/mI5_8JeNCvc",
     "percentToQualify": "100",
     "records": [
+        {
+            "user": "Nuridint3b",
+            "link": "https://youtu.be/N-VX784oWUM?si=1AAIEjVCSnQvky5H",
+            "percent": 100,
+            "hz": 60  
+        },
+        {
+            "user": "puufy",
+            "link": "",
+            "percent": 100,
+            "hz": 60  
+        },
+        {
+            "user": "Blingter",
+            "link": "",
+            "percent": 100,
+            "hz": 60  
+        }
     ]
 }
