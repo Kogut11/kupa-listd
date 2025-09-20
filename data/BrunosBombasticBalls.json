@@ -7,5 +7,11 @@
     "verification": "https://youtu.be/PkK7hviWfJc",
     "percentToQualify": "100",
     "records": [
+                {
+            "user": "SpaceBK",
+            "link": "https://youtu.be/FR23I3NoaWc",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }

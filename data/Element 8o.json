@@ -7,5 +7,12 @@
     "verification": "https://youtu.be/AiQvJiu_Lpo",
     "percentToQualify": "100",
     "records": [
+                {
+            "user": "Symm.",
+            "link": "",
+            "percent": 100,
+            "hz": 144  
+        }
+    
     ]
 }
