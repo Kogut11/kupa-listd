@@ -55,11 +55,17 @@
             "percent": 100,
             "hz": 240
         },
-       {
+        {
             "user": "puffiballGD",
             "link": "",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "Ziernik",
+            "link": "",
+            "percent": 100,
+            "hz": 144
         }
     ]
 }
