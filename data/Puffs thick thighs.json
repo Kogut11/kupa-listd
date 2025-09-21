@@ -7,5 +7,11 @@
     "verification": "https://youtu.be/3ic-ANeZHvU",
     "percentToQualify": "100",
     "records": [
+        {
+            "user": "MayXaX",
+            "link": "",
+            "percent": 100,
+            "hz": 200  
+        }
     ]
 }
