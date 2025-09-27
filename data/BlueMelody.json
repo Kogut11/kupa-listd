@@ -67,9 +67,15 @@
             "percent": 100,
             "hz": 240
         },
-                {
+        {
             "user": "RyVo",
             "link": "https://youtu.be/yMRombDNwyA?si=umN55ZCbGASsuCkb",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "zskilledbeast",
+            "link": "",
             "percent": 100,
             "hz": 60
         }
