@@ -7,5 +7,11 @@
     "verification": "https://youtu.be/34CDMBHtlP8",
     "percentToQualify": "100",
     "records": [
+                                {
+            "user": "RyVo",
+            "link": "https://youtu.be/PGVx80h7noI?si=q7CnChglxqswU8dx",
+            "percent": 100,
+            "hz": 60
+        }
     ]
 }

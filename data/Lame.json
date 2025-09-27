@@ -90,6 +90,12 @@
             "link": "https://youtu.be/pyo_aY2tkno?si=1QieFrDz_r8E1MJP",
             "percent": 100,
             "hz": 60
+        },
+                        {
+            "user": "coconut",
+            "link": "",
+            "percent": 100,
+            "hz": 240
         }
     ]
 }
