@@ -31,11 +31,17 @@
             "percent": 100,
             "hz": 240
         },
-                {
+        {
             "user": "Nuridint3b",
             "link": "https://youtu.be/5ER0As4F00E?si=EdBXmYbMvjZHB_Wt",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "zskilledbeast",
+            "link": "",
+            "percent": 100,
+            "hz": 60  
         }
     ]
 }
