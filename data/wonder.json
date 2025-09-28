@@ -7,5 +7,11 @@
     "verification": "https://youtu.be/1l05k2_HFCg",
     "percentToQualify": "100",
     "records": [
+        {
+            "user": "zPentamery",
+            "link": "",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
