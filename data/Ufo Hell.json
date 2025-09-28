@@ -67,11 +67,17 @@
             "percent": 100,
             "hz": 60
         },
-                {
+        {
             "user": "SpaceBK",
             "link": "https://youtu.be/FR23I3NoaWc",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "zskilledbeast",
+            "link": "",
+            "percent": 100,
+            "hz": 60  
         }
     ]
 }
