@@ -7,5 +7,17 @@
     "verification": "https://youtu.be/RKZRJNLN7J8",
     "percentToQualify": "100",
     "records": [
+        {
+            "user": "zskilledbeast",
+            "link": "https://drive.google.com/file/d/1fvRo5LhwSxDEh8VPyKPOZnaXtP0XGHbi/view?usp=drivesdk",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "RyVo",
+            "link": "https://youtu.be/ltDsCIUbsqE?si=Uko3AMqhADYdM4PG",
+            "percent": 100,
+            "hz": 60
+        }
     ]
 }
