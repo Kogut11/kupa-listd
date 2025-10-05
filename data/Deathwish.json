@@ -72,6 +72,12 @@
             "link": "https://www.youtube.com/watch?v=S8c9GJFmblo",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "bagelgmd",
+            "link": "https://youtu.be/7yI5wRj0pOk?si=J7KDpMqVABgcbWg4",
+            "percent": 100,
+            "hz": 360
         }
     ]
 }
