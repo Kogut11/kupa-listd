@@ -42,6 +42,12 @@
             "link": "",
             "percent": 100,
             "hz": 60  
+        },
+        {
+            "user": "TripleBaconn",
+            "link": "https://youtu.be/l763xFQ2yIo",
+            "percent": 100,
+            "hz":"240"
         }
     ]
 }
