@@ -60,6 +60,12 @@
             "link": "https://youtu.be/ytrVyJMD-3U",
             "percent": 100,
             "hz": 240
+                    },
+        {
+            "user": "coconut",
+            "link": "https://www.youtube.com/watch?v=nqSBjOFBNwE",
+            "percent": 100,
+            "hz": 240
         }
     ]
 }
