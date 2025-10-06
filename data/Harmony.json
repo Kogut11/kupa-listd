@@ -7,11 +7,17 @@
     "verification": "https://youtu.be/HimrI6-beyY",
     "percentToQualify": "100",
     "records": [
-                {
+        {
             "user": "rkxlol",
             "link": "https://youtu.be/SGMK9GF87-8",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "JameSharpener",
+            "link": "https://youtu.be/ytrVyJMD-3U",
+            "percent": 100,
+            "hz": 240
         }
     ]
 }
