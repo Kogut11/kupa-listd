@@ -3,33 +3,9 @@
     "name": "Walter Blue",
     "author": "Symmetrics",
     "creators": ["Symmetrics"],
-    "verifier": "Symm.",
-    "verification": "https://youtu.be/_wr--_LP0Og?si=qX4_1Lt_ds1w_vz4",
+    "verifier": "JameSharpener",
+    "verification": "https://youtu.be/q6-JO4ut0oU",
     "percentToQualify": "100",
     "records": [
-        {
-            "user": "yogurt11",
-            "link": "",
-            "percent": 100,
-            "hz": 240
-        },
-        {
-            "user": "blendro",
-            "link": "",
-            "percent": 100,
-            "hz": 240  
-        },
-        {
-            "user": "MayXaX",
-            "link": "",
-            "percent": 100,
-            "hz": 200  
-        },
-        {
-            "user": "SpaceBK",
-            "link": "https://youtu.be/6WN57H27YE8",
-            "percent": 100,
-            "hz": 240
-        }
     ]
 }
