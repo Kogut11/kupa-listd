@@ -66,6 +66,12 @@
             "link": "https://youtu.be/ytrVyJMD-3U",
             "percent": 100,
             "hz": 240
+                    },
+        {
+            "user": "GroupNil",
+            "link": "https://youtu.be/yL-IPQhI14I",
+            "percent": 100,
+            "hz": 60
         }
     ]
 }
