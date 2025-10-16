@@ -7,5 +7,11 @@
     "verification": "https://youtu.be/AyWPdhznTgw",
     "percentToQualify": "100",
     "records": [
+        {
+            "user": "blendro",
+            "link": "https://discord.com/channels/1411738436607414334/1427741128702038087/1427741128702038087",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
