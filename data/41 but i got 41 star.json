@@ -1,1 +1,17 @@
-
+{
+    "id": 127206845,
+    "name": "41 but i got 41 star",
+    "author": "PuffiballGD",
+    "creators": ["PuffiballGD"],
+    "verifier": "PuffiballGD",
+    "verification": "https://youtu.be/Rrr1XOK1yrc",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "Rkxlol",
+            "link": "https://www.youtube.com/watch?v=K8K-Z7nnxTo",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
+}
