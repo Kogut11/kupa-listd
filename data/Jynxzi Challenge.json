@@ -1,1 +1,17 @@
-
+{
+    "id": 127443022,
+    "name": "Jynxzi Challenge",
+    "author": "JacketXD",
+    "creators": ["JacketXD"],
+    "verifier": "tomato",
+    "verification": "https://youtu.be/3fkDzFhJSSA",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "rkxlol",
+            "link": "https://youtu.be/P0V1ia8vWE0",
+            "percent": 60,
+            "hz": 240
+        }
+    ]
+}
