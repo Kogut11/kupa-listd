@@ -16,15 +16,20 @@
         "name": "MayXaX",
         "link": "https://www.youtube.com/@max528XDX"
     },
-    
     {
-        "role": "dev",
-        "name": "rkxlol",
-        "link": "https://www.youtube.com/@max528XDX"
+        "role": "owner",
+        "name": "Symm.",
+        "link": "https://www.youtube.com/@deniszsm"
     },
     {
         "role": "dev",
         "name": "Symm.",
         "link": "https://www.youtube.com/@deniszsm"
     }
+    {
+        "role": "dev",
+        "name": "rkxlol",
+        "link": "https://www.youtube.com/@max528XDX"
+    },
+    
 ]
