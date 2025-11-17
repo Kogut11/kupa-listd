@@ -18,5 +18,10 @@
         "name": "CCC Levels Pack",
         "points": 0,
         "levels": []
+    },
+    {
+        "name":"ALL CAPS PACK"
+        "points":0,
+        "levels": []
     }
 ]
