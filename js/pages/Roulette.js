@@ -137,7 +137,7 @@ export default {
             return this.progression[this.progression.length - 1] || 0;
         },
         placeholder() {
-            return `At least ${this.currentPercentage + 1}%`;
+            return `At least ${this.currentPercentage + 10}%`;
         },
         hasCompleted() {
             return (
