@@ -12,6 +12,11 @@
     {
         "name": "The Brajan Pack"
         "points": 0,
-        "levels": 0,
+        "levels": []
+    },
+    {
+        "name": "CCC Levels Pack"
+        "points": 0,
+        "levels": []
     }
 ]
