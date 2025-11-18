@@ -20,7 +20,12 @@
         "levels": []
     },
     {
-        "name":"ALL CAPS PACK"
+        "name":"ALL CAPS PACK",
+        "points":0,
+        "levels": []
+    },
+    {
+        "name":"TBCL's Favorites Pack 1",
         "points":0,
         "levels": []
     }
