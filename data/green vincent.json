@@ -18,6 +18,12 @@
             "link": "https://www.youtube.com/watch?v=plkdR0-ru_Q",
             "percent": 100,
             "hz": 75
+        },
+        {
+            "user": "Snale Lorde",
+            "link": "https://www.youtube.com/watch?v=iMMPEArOezE",
+            "percent": 100,
+            "hz": 240
         }
     ]
 }
