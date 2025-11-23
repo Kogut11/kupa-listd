@@ -30,6 +30,12 @@
             "link": "https://www.youtube.com/watch?v=PA7cT3P6VEI",
             "percent": 100,
             "hz": 75
+        },
+        {
+            "user": "Snale Lorde",
+            "link": "https://www.youtube.com/watch?v=5ok1sHixSQA&feature=youtu.be",
+            "percent": 100,
+            "hz": 240
         }
     ]
 }
