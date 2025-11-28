@@ -36,6 +36,12 @@
             "link": "https://www.youtube.com/watch?v=5ok1sHixSQA&feature=youtu.be",
             "percent": 100,
             "hz": 240
+                    },
+        {
+            "user": "IRmanHD",
+            "link": "https://youtu.be/Ql6CGQeKJ4w?si=1ZO7CRcgRPA1nDeC",
+            "percent": 100,
+            "hz": 60
         }
     ]
 }
