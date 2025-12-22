@@ -7,5 +7,23 @@
     "verification": "https://youtu.be/A9KiPio2-n4",
     "percentToQualify": "100",
     "records": [
+        {
+            "user": "rkxlol",
+            "link": "https://youtu.be/j-fu5deKLKI",
+            "percent": 100,
+            "hz": 60
+        }
+        {
+            "user": "blendro",
+            "link": "https://discord.com/channels/1411738436607414334/1448105849259298938/1448105849259298938",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "tFluffy",
+            "link": "https://youtu.be/X3RAkWQLRd0",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
