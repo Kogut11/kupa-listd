@@ -24,6 +24,12 @@
             "link": "https://www.youtube.com/watch?v=YLaVn_zkud4",
             "percent": 100,
             "hz": 144
+        },
+        {
+            "user": "trubblez2",
+            "link": "https://www.youtube.com/watch?v=atIRI4gA4tU",
+            "percent": 100,
+            "hz": "idk"
         }
     ]
 }
