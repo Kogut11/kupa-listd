@@ -8,5 +8,11 @@
     "verification": "https://youtu.be/i0NvooScIGk",
     "percentToQualify": "100",
     "records": [
+        {
+            "user": "Glassik",
+            "link": "https://youtu.be/gELljXFnXPY",
+            "percent": 100,
+            "hz": "60"
+        }
     ]
 }
