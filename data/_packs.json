@@ -58,12 +58,21 @@
     ]
   },
   {
-    "name": "TBCL's Favorites Pack 1",
+    "name": "TBCL's Favorites Pack I",
     "color": "#5bd3ff",
     "levels": [
       126290644,
       125824310,
       126306734
+    ]
+  },
+  {
+    "name": "TBCL's Favorites Pack II",
+    "color": "#5bd3ff",
+    "levels": [
+      127219273,
+      125856421,
+      126265811
     ]
   }
 ]
