@@ -19,12 +19,22 @@
     ]
   },
   {
-    "name": "The Brajan Pack",
+    "name": "The Brajan Pack I",
     "color": "#5bd3ff",
     "levels": [
+      129359193,
       127766355,
-      125669787,
-      127438464
+      126403522,
+      125669787
+    ]
+  },
+  {
+    "name": "The Brajan Pack II",
+    "color": "#5bd3ff",
+    "levels": [
+      127438464,
+      126048559,
+      128579933
     ]
   },
   {
