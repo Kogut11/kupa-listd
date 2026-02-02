@@ -7,5 +7,17 @@
     "verification": "https://youtu.be/mEtrk1VOvdA",
     "percentToQualify": "100",
     "records": [
+        {
+            "user": "JameSharpener",
+            "link": "https://discord.com/channels/1411738436607414334/1466467484147253512/1466467484147253512",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "Blendro",
+            "link": "https://discord.com/channels/1411738436607414334/1466851207598575862/1466851207598575862",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
