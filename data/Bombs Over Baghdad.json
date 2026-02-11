@@ -18,6 +18,12 @@
             "link": "https://www.youtube.com/watch?v=GdLsVKM3DAE",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "blendro",
+            "link": "https://cdn.discordapp.com/attachments/1469119310747402271/1469119311871217714/bombs_over_baghdad_100.mp4?ex=698dbfba&is=698c6e3a&hm=67296df554f19e36fe250bb06c73c39ee3ef28600fb0568dc139d5d169a2741a&",
+            "percent": 100,
+            "hz": 240  
         }
     ]
 }
