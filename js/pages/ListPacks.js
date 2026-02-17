@@ -105,6 +105,10 @@ export default {
           ></iframe>
           <ul class="stats">
             <li>
+              <div class="type-title-sm">Points when completed</div>
+              <p>{{ selectedPack.points || 'N/A' }}</p>
+            </li>
+            <li>
               <div class="type-title-sm">ID</div>
               <p>{{ selectedLevel.id }}</p>
             </li>
@@ -117,9 +121,6 @@ export default {
               <p>{{ selectedLevel.version || 'Any' }}</p>
             </li>
             <li>
-              <div class="type-title-sm">ALTERNATING</div>
-              <p>{{ selectedLevel.alternating || 'No' }}</p>
-            </li>
           </ul>
         </div>
       </div>
