@@ -1,47 +1,47 @@
 [
     {
         "name": "Element Pack",
-        "points": 0,
+        "points": 125,
         "levels": []
     },
     {
         "name": "We 81 Pack",
-        "points": 0,
+        "points": 225,
         "levels": []
     },
     {
         "name": "The Brajan Pack I",
-        "points": 0,
+        "points": 750,
         "levels": []
     },
     {
         "name": "The Brajan Pack II",
-        "points": 0,
+        "points": 150,
         "levels": []
     },
     {
         "name": "CCC Levels Pack",
-        "points": 0,
+        "points": 250,
         "levels": []
     },
     {
         "name":"ALL CAPS PACK",
-        "points":0,
+        "points":150,
         "levels": []
     },
     {
         "name":"TBCL's Favorites Pack I",
-        "points":0,
+        "points":330,
         "levels": []
     },
     {
         "name":"TBCL's Favorites Pack II",
-        "points":0,
+        "points":750,
         "levels": []
     },
     {
         "name":"Kanye West Pack",
-        "points":0,
+        "points":400,
         "levels": []
     }
 ]
