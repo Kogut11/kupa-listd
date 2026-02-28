@@ -87,6 +87,15 @@
     ]
   },
   {
+    "name": "Tyler, The Creator Pack",
+    "color": "#5bd3ff",
+    "levels": [
+      134571854,
+      129091829,
+      126658667
+    ]
+  },
+  {
     "name": "Former Top 1's Pack I",
     "color": "#5bd3ff",
     "levels": [
@@ -105,14 +114,5 @@
       125669787,
       125760461
       ]
-    },
-    {
-    "name": "Tyler, The Creator Pack",
-    "color": "#5bd3ff",
-    "levels": [
-      134571854,
-      129091829,
-      126658667
-    ]
-  }
+    }
 ]
