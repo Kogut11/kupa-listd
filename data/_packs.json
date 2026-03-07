@@ -109,11 +109,44 @@
     "name": "Wave Progression Tier I",
     "color": "#5bd3ff",
     "levels": [
-      122510495,
+      127443022,
       92485678,
+      122510495,
       127959254,
       125519788,
       125952748
+      ]
+    },
+    {
+    "name": "Wave Progression Tier II",
+    "color": "#5bd3ff",
+    "levels": [
+      127079044,
+      126783816,
+      77866385,
+      125929753,
+      126374899,
+      114962247
+      ]
+    },
+    {
+    "name": "Wave Progression Tier III",
+    "color": "#5bd3ff",
+    "levels": [
+      128577559,
+      128629096,
+      126994928,
+      129003363
+      ]
+    },
+    {
+    "name": "Wave Progression Tier IV",
+    "color": "#5bd3ff",
+    "levels": [
+      126746723,
+      128629096,
+      125716623,
+      126048559
       ]
     }
 ]
