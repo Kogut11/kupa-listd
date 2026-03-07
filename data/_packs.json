@@ -168,5 +168,52 @@
       126116426,
       129844573
       ]
+    },
+    {
+    "name": "Wave Progression Tier VII",
+    "color": "#5bd3ff",
+    "levels": [
+      128579122,
+      126306734,
+      128769457
+      ]
+    }
+        {
+    "name": "Wave Progression Tier VIII",
+    "color": "#5bd3ff",
+    "levels": [
+      125669787,
+      130317642,
+      128923606,
+      128251487
+      ]
+    },
+    {
+    "name": "Wave Progression Tier IX",
+    "color": "#5bd3ff",
+    "levels": [
+      126290644,
+      125856421,
+      126403522,
+      129568741
+      ]
+    },
+    {
+    "name": "Wave Progression Tier X",
+    "color": "#5bd3ff",
+    "levels": [
+      128497320,
+      127766355,
+      130304400
+      ]
+    },
+    {
+    "name": "Wave Progression Tier XI",
+    "color": "#5bd3ff",
+    "levels": [
+      130416384,
+      127219273,
+      128719600
+      ]
     }
 ]
