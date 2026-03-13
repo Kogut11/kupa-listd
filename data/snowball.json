@@ -7,5 +7,11 @@
     "verification": "https://youtu.be/pp8dPoN_2sc",
     "percentToQualify": "100",
     "records": [
+        {
+            "user": "puffiballGD",
+            "link": "https://youtu.be/E32JW2H6kgs",
+            "percent": 100,
+            "hz": 180
+        }
     ]
 }
