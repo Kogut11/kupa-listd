@@ -36,6 +36,12 @@
             "link": "https://www.youtube.com/watch?v=yK4ejO2eoDA",
             "percent": 100,
             "hz": 75
+        },
+        {
+            "user": "lacley",
+            "link": "https://www.youtube.com/watch?v=sGQjb5fCzX4",
+            "percent": 100,
+            "hz": 360
         }
     ]
 }
