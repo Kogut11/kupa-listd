@@ -7,5 +7,11 @@
     "verification": "https://www.youtube.com/watch?v=PDqhMYYqbQE",
     "percentToQualify": "100",
     "records": [
+                {
+            "user": "zPentamery",
+            "link": "https://discord.com/channels/1411738436607414334/1492814924492308572/1492814924492308572",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
