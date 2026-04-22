@@ -200,7 +200,7 @@ export default {
                         Audible clicks and a cheat indicator are a REQUIREMENT for verifications and completions, IF IT LACKS ONE OF THESE, they will be denied.
                     </p>
                     <p>
-                       3 minutes or more of raw footage for top 15's, even if it's a verificvation
+                       3 minutes or more of raw footage for top 15's, even if it's a verification
                     </p>
                     <p>
                         The recording must have a previous attempt and entire death animation shown before the completion, unless the completion is on the first attempt. Everyplay records are exempt from this
