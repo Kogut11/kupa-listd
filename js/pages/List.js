@@ -186,21 +186,21 @@ export default {
               </li>
             </ol>
             </template>
-                    <h3>Submission Requirements</h3>
+                   <h3>Submission Requirements</h3>
                     <p>
-                        Clicks Sound or hand-cam are required
+                        Achieved the record without using hacks (however, FPS bypass is allowed, up to 360fps)
                     </p>
                     <p>
-                        Alternating Is allowed
+                        Achieved the record on the level that is listed on the site - please check the level ID before you submit a record
                     </p>
                     <p>
-                        Levels must be beaten on 60, 120, 144, 180, or 240 or higher (Unless you use your monitor native refresh rate)
+                        Have either source audio or clicks/taps in the video. Edited audio only does not count
+                    </p>
+                     <p>
+                        Audible clicks and a cheat indicator are a REQUIREMENT for verifications and completions, IF IT LACKS ONE OF THESE, they will be denied.
                     </p>
                     <p>
-                        Levels that require you to use a weird fps (ex: Katamari) are allowed
-                    </p>
-                    <p>
-                        The maximum CPS for your level cannot exceed 9 or higher
+                       3 minutes or more of raw footage for top 15's, even if it's a verificvation
                     </p>
                     <p>
                         The recording must have a previous attempt and entire death animation shown before the completion, unless the completion is on the first attempt. Everyplay records are exempt from this
@@ -209,22 +209,13 @@ export default {
                         The recording must also show the player hit the endwall, or the completion will be invalidated.
                     </p>
                     <p>
-                        Obvious secret ways are not allowed
-                    </p>
-                    <p>
-                        You need to use Cheat Indicator (Unless your on a vanilla cliet)
+                        Do not use secret routes or bug routes
                     </p>
                     <p>
                         Do not use easy modes, only a record of the unmodified level qualifies
                     </p>
                     <p>
-                        Once a level falls onto the Legacy List, we dont accept records after it falls off
-                    </p>
-                    <p>
-                        Noclip accuracy is not allowed, even if you didn't die in it at all.
-                    </p>
-                    <p>
-          
+                        Once a level falls onto the Legacy List, we accept records for it for 24 hours after it falls off, then afterwards we never accept records for said level
                     </p>
                     <div class="og">
             <p class="type-label-md">
