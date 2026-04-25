@@ -30,6 +30,12 @@
             "link": "https://www.youtube.com/watch?v=sGQjb5fCzX4",
             "percent": 100,
             "hz": 360
+        },
+        {
+            "user": "puufy",
+            "link": "https://youtu.be/paLSkWKFCp8",
+            "percent": 100,
+            "hz": 120
         }
     ]
 }
