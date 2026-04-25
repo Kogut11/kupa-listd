@@ -7,5 +7,11 @@
     "verification": "https://youtu.be/H_5ZJdwbGJo",
     "percentToQualify": "100",
     "records": [
+        {
+            "user": "JameSharpener",
+            "link": "https://youtu.be/MDb0o4R87Ls",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
