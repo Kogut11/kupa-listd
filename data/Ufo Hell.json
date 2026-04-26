@@ -113,7 +113,8 @@
             "user": "ZincIsGood",
             "link": "https://youtu.be/kuj6bwA-bK0?si=3OjIC2GIJftCCzb_",
             "percent": 100,
-            "hz": 120
+            "hz": 120,
+            "mobile": "true"
         }
     ]
 }
