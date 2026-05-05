@@ -120,6 +120,12 @@
             "link": "https://www.youtube.com/watch?v=CQtG0i862-M",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "infasaegd",
+            "link": "https://youtu.be/NJS0fsh7GPo",
+            "percent": 100,
+            "hz": 120
         }
     ]
 }
