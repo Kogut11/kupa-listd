@@ -9,9 +9,15 @@
     "records": [
         {
             "user": "Symm.",
-            "link": "",
+            "link": "https://medal.tv/games/geometry-dash/clips/mDSyuWkef3nEj_hZy?invite=cr-MSwwd1EsNDMyMzU1MDM3&v=120",
             "percent": 100,
             "hz": 144
+        },
+        {
+            "user": "JameSharpener",
+            "link": "https://youtu.be/u9p0aP07398",
+            "percent": 100,
+            "hz": 240
         }
     ]
 }
