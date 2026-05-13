@@ -18,6 +18,12 @@
             "link": "https://www.youtube.com/watch?v=sGQjb5fCzX4",
             "percent": 100,
             "hz": 360
+        },
+        {
+            "user": "bowm",
+            "link": "https://www.youtube.com/watch?v=qeXwK57jPdI",
+            "percent": 100,
+            "hz": 144
         }
     ]
 }
