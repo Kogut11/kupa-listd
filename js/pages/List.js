@@ -21,6 +21,7 @@ export default {
   data: () => ({
     list: [],
     editors: [],
+    tags: [],
     loading: true,
     selected: 0,
     errors: [],
@@ -70,6 +71,7 @@ export default {
   async mounted() {
     this.list = await fetchList();
     this.editors = await fetchEditors();
+    this.tags = await fetchTags();
     if (!this.list) {
       this.errors = [
         "Failed to load list. Retry in a few minutes or notify list staff.",
