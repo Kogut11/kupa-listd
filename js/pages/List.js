@@ -121,8 +121,20 @@ export default {
         <div class="level">
           <h1>{{ selectedLevel.name }}</h1>
           <LevelAuthors :author="selectedLevel.author" :creators="selectedLevel.creators" :verifier="selectedLevel.verifier"></LevelAuthors>
-          <iframe class="video" id="videoframe" :src="embed(selectedLevel.showcase || selectedLevel.verification)" frameborder="0"></iframe>
-          <ul class="stats">
+        <iframe class="video" id="videoframe" :src="embed(selectedLevel.showcase || selectedLevel.verification)" frameborder="0"></iframe>
+            <div
+              class="level-tags"
+          v-if="selectedLevel.tags && selectedLevel.tags.length"
+        >
+              <span
+                class="level-tag"
+                v-for="tag in selectedLevel.tags"
+                :key="tag"
+        >
+     {{ tag }}
+  </span>
+</div>
+<ul class="stats">
             <li>
               <div class="type-title-sm">Points when completed</div>
               <p>
