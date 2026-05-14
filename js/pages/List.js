@@ -30,41 +30,40 @@ export default {
     roleIconMap,
     store,
   }),
-  computed: {
-    filteredList() {
-  return this.list.filter(level => {
-    const matchesSearch =
-      !this.search ||
-      level.name.toLowerCase().includes(this.search.toLowerCase());
+computed: {
+  filteredList() {
+    return this.list.filter(([level, err]) => {
+      if (!level || !level.name) return false;
 
-    const matchesTag =
-      this.selectedTag === "All" ||
-      (level.tags && level.tags.includes(this.selectedTag));
+      const matchesSearch =
+        !this.searchQuery ||
+        level.name.toLowerCase().includes(this.searchQuery.toLowerCase());
 
-    return matchesSearch && matchesTag;
-  });
-}
-      if (!this.searchQuery) return this.list;
-      return this.list.filter(([level, err]) => {
-        if (!level || !level.name) return false;
-        return level.name.toLowerCase().includes(this.searchQuery.toLowerCase());
-      });
-    },
-    selectedLevel() {
-      return this.filteredList[this.selected]
-        ? this.filteredList[this.selected][0]
-        : null;
-    },
-    // Compute the original rank (index) in the full list for display purposes.
-    selectedIndexInFullList() {
-      if (!this.selectedLevel) return this.selected + 1;
-      return (
-        this.list.findIndex(
-          (item) => item[0] && item[0].id === this.selectedLevel.id
-        ) + 1
-      );
-    },
+      const matchesTag =
+        this.selectedTag === "All" ||
+        (level.tags && level.tags.includes(this.selectedTag));
+
+      return matchesSearch && matchesTag;
+    });
   },
+
+  selectedLevel() {
+    return this.filteredList[this.selected]
+      ? this.filteredList[this.selected][0]
+      : null;
+  },
+
+  // Compute the original rank (index) in the full list for display purposes.
+  selectedIndexInFullList() {
+    if (!this.selectedLevel) return this.selected + 1;
+
+    return (
+      this.list.findIndex(
+        (item) => item[0] && item[0].id === this.selectedLevel.id
+      ) + 1
+    );
+  },
+},
   watch: {
     // Reset the selected index when the search query changes.
     searchQuery() {
