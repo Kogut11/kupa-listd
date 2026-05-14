@@ -97,7 +97,17 @@ export default {
       <div class="list-container">
         <!-- Search Bar -->
         <div class="search-bar">
-          <input type="text" v-model="searchQuery" placeholder="Search levels..." />
+           <input type="text" v-model="searchQuery" placeholder="Search levels..." />
+              <select class="tag-filter" v-model="selectedTag">
+            <option value="All">All Tags</option>
+            <option
+              v-for="tag in tags"
+              :key="tag"
+              :value="tag"
+        >
+      {{ tag }}
+    </option>
+  </select>
         </div>
         <table class="list" v-if="filteredList.length">
           <tr v-for="(item, i) in filteredList" :key="i">
