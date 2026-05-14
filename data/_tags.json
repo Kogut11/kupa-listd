@@ -1,0 +1,98 @@
+[
+    {
+        "name":"NONG",
+        "description":"Extreme demons that use a song that aren't found on newgrounds."
+    },
+    {
+        "name":"Circles",
+        "description":"Extreme demons that using the nine circles theme."
+    },
+    {
+        "name":"Clicksync",
+        "description":"Extreme demons that have gameplay sync to a song."
+    },
+    {
+        "name":"Fast-Paced",
+        "description":"Extreme demons that move fast."
+    },
+    {
+        "name":"Timings",
+        "description":"Extreme demons that mostly contain timings (cube, ball, ufo, robot, spider)."
+    },
+    {
+        "name":"Chokepoints",
+        "description":"Extreme demons that contain parts in the level that are hard to pass."
+    },
+    {
+        "name":"Learny",
+        "description":"Extreme demons that take more time than usual to learn."
+    },
+    {
+        "name":"High CPS",
+        "description":"Extreme demons with a lot of clicks in a short time."
+    },
+    {
+        "name":"Gimmicky",
+        "description":"Extreme demons with gameplay that doesn't reflect the norm."
+    },
+    {
+        "name":"Flow",
+        "description":"Extreme demons that have the gameplay flow with the song being used."
+    },
+    {
+        "name":"Slow-Paced",
+        "description":"Extreme demons that move slow."
+    },
+    {
+        "name":"Precision",
+        "description":"Extreme demons with very precise clicks throughout the level."
+    },
+    {
+        "name":"Mirror",
+        "description":"Extreme demons that has mirrored gameplay through most of the level."
+    },
+    {
+        "name":"Cube",
+        "description":"Extreme demons that contain mostly cube gameplay."
+    },
+    {
+        "name":"Ship",
+        "description":"Extreme demons that contain mostly ship gameplay."
+    },
+    {
+        "name":"Ball",
+        "description":"Extreme demons that contain mostly ball gameplay."
+    },
+    {
+        "name":"UFO",
+        "description":"Extreme demons that contain mostly UFO gameplay."
+    },
+    {
+        "name":"Wave",
+        "description":"Extreme demons that contain mostly wave gameplay."
+    },
+    {
+        "name":"Robot",
+        "description":"Extreme demons that contain mostly robot gameplay."
+    },
+    {
+        "name":"Spider",
+        "description":"Extreme demons that contain mostly spider gameplay."
+    },
+    {
+        "name":"Old Swing",
+        "description":"Extreme demons that contain mostly old swing gameplay which involves a ball dual where one ball controls the other."
+    },
+    {
+        "name":"New Swing",
+        "description":"Extreme demons that contain mostly swing gameplay."
+    },
+    {
+        "name":"Duals",
+        "description":"Extreme demons that contain mostly dual gameplay."
+    },
+    {
+        "name":"Overall",
+        "description":"Extreme demons that contain a mostly even amount of each gameplay mode."
+    }
+]
