@@ -94,5 +94,9 @@
     {
         "name":"Overall",
         "description":"Extreme demons that contain a mostly even amount of each gameplay mode."
+    },
+    {
+        "name":"RNG",
+        "description":"just an simple RNG section"
     }
 ]
