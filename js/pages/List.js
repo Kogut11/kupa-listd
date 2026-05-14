@@ -22,6 +22,7 @@ export default {
     list: [],
     editors: [],
     tags: [],
+    selectedTag: "All",
     loading: true,
     selected: 0,
     errors: [],
