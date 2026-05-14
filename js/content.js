@@ -4,6 +4,15 @@ import { round, score } from './score.js';
  * Path to directory containing `_list.json` and all levels
  */
 const dir = '/data';
+//Tags
+export async function fetchTags() {
+  try {
+    const response = await fetch('/data/_tags.json');
+    return await response.json();
+  } catch {
+    return [];
+  }
+}
 
 export async function fetchList() {
     const listResult = await fetch(`${dir}/_list.json`);
