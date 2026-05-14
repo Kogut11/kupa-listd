@@ -98,5 +98,9 @@
     {
         "name":"RNG",
         "description":"just an simple RNG section"
-    }
+    },
+    {
+        "name":"Sequel",
+        "description":"sequel"
+    }z
 ]
