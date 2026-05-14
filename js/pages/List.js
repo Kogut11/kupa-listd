@@ -32,6 +32,18 @@ export default {
   }),
   computed: {
     filteredList() {
+  return this.list.filter(level => {
+    const matchesSearch =
+      !this.search ||
+      level.name.toLowerCase().includes(this.search.toLowerCase());
+
+    const matchesTag =
+      this.selectedTag === "All" ||
+      (level.tags && level.tags.includes(this.selectedTag));
+
+    return matchesSearch && matchesTag;
+  });
+}
       if (!this.searchQuery) return this.list;
       return this.list.filter(([level, err]) => {
         if (!level || !level.name) return false;
