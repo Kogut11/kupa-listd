@@ -6,6 +6,9 @@
     "verifier": "blendro",
     "verification": "https://youtu.be/H_5ZJdwbGJo",
     "percentToQualify": "100",
+        "tags": [
+        "Wave"
+            ],
     "records": [
         {
             "user": "JameSharpener",
