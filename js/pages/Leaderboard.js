@@ -64,4 +64,96 @@ export default {
                         <h1>#{{ leaderboard.indexOf(entry) + 1 }} {{ entry.user }}</h1>
                         <h3>{{ entry.total }}</h3>
 
+                        <h2 v-if="entry.verified.length > 0">
+                            Verified ({{ entry.verified.length}})
+                        </h2>
+
+                        <table class="table">
+                            <tr v-for="score in entry.verified">
+                                <td class="rank">
+                                    <p>#{{ score.rank }}</p>
+                                </td>
+                                <td class="level">
+                                    <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
+                                </td>
+                                <td class="score">
+                                    <p>+{{ localize(score.score) }}</p>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <h2 v-if="entry.completed.length > 0">
+                            Completed ({{ entry.completed.length }})
+                        </h2>
+
+                        <table class="table">
+                            <tr v-for="score in entry.completed">
+                                <td class="rank">
+                                    <p>#{{ score.rank }}</p>
+                                </td>
+                                <td class="level">
+                                    <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
+                                </td>
+                                <td class="score">
+                                    <p>+{{ localize(score.score) }}</p>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <h2 v-if="entry.progressed.length > 0">
+                            Progressed ({{entry.progressed.length}})
+                        </h2>
+
+                        <table class="table">
+                            <tr v-for="score in entry.progressed">
+                                <td class="rank">
+                                    <p>#{{ score.rank }}</p>
+                                </td>
+                                <td class="level">
+                                    <a class="type-label-lg" target="_blank" :href="score.link">
+                                        {{ score.percent }}% {{ score.level }}
+                                    </a>
+                                </td>
+                                <td class="score">
+                                    <p>+{{ localize(score.score) }}</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </main>
+    `,
+    computed: {
+        filteredLeaderboard() {
+            return this.leaderboard.filter((player) =>
+                player.user
+                    .toLowerCase()
+                    .includes(this.searchQuery.toLowerCase())
+            );
+        },
+
+        selectedEntry() {
+            return this.leaderboard[this.selected];
+        },
+
+        entry() {
+            return this.selectedEntry;
+        },
+    },
+    async mounted() {
+        const [leaderboard, err] = await fetchLeaderboard();
+        this.leaderboard = leaderboard;
+        this.err = err;
+
+        // Hide loading spinner
+        this.loading = false;
+    },
+    methods: {
+        localize,
+
+        selectPlayer(player) {
+            this.selected = this.leaderboard.indexOf(player);
+        },
+    },
 };
