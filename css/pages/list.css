@@ -157,29 +157,25 @@
     border-color: var(--color-primary);
     box-shadow: 0 0 4px var(--color-primary);
 }
-.level-tag,
-.level-tag span,
-.level-tag p {
+/* DARK MODE */
+body.dark .level-tag,
+body.dark .level-tag *,
+body.dark .level-tag span,
+body.dark .level-tag p {
     color: #ffffff !important;
 }
 
-.level-tag {
+body.dark .level-tag {
     padding: 8px 16px !important;
     border-radius: 999px !important;
     font-size: 1rem !important;
     font-weight: 700 !important;
     border: 2px solid #7cc48b !important;
     background: rgba(124, 196, 139, 0.25) !important;
-
-    color: #ffffff !important;
-
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5) !important;
 }
-.level-tag * {
-    color: #ffffff !important;
-}
 
-/* Light mode */
+/* LIGHT MODE */
 body:not(.dark) .level-tag,
 body:not(.dark) .level-tag *,
 body:not(.dark) .level-tag span,
