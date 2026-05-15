@@ -6,6 +6,10 @@
     "verifier": "zPentamery",
     "verification": "https://youtu.be/oCQeEk5TLzA",
     "percentToQualify": "100",
+    "tags": [
+        "Overall",
+        "Precision"
+              ],
     "records": [
         {
             "user": "tFluffy",
