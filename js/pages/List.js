@@ -46,7 +46,6 @@ computed: {
       return matchesSearch && matchesTag;
     });
   },
-  ...
 
   selectedLevel() {
     return this.filteredList[this.selected]
