@@ -177,6 +177,8 @@
 }
 .level-tag * {
     color: #ffffff !important;
+}
+
 /* Light mode */
 body:not(.dark) .level-tag,
 body:not(.dark) .level-tag *,
@@ -192,7 +194,6 @@ body:not(.dark) .level-tag {
 
 body:not(.dark) .level-tag:hover {
     background: rgba(0,0,0,0.13) !important;
-}
 }
 .tag-filter {
     width: 100%;
