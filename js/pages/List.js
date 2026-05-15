@@ -41,11 +41,12 @@ computed: {
 
       const matchesTag =
         this.selectedTag === "All" ||
-        (level.tags && level.tags.includes(this.selectedTag));
+        (level.tags && Array.isArray(level.tags) && level.tags.includes(this.selectedTag));
 
       return matchesSearch && matchesTag;
     });
   },
+  ...
 
   selectedLevel() {
     return this.filteredList[this.selected]
@@ -107,19 +108,20 @@ computed: {
     <main v-else class="page-list">
       <div class="list-container">
         <!-- Search Bar -->
-        <div class="search-bar">
-           <input type="text" v-model="searchQuery" placeholder="Search levels..." />
-              <select class="tag-filter" v-model="selectedTag">
-            <option value="All">All Tags</option>
-            <option
-              v-for="tag in tags"
-              :key="tag"
-              :value="tag"
-        >
-      {{ tag }}
-    </option>
-  </select>
-        </div>
+<div class="search-bar">
+   <input type="text" v-model="searchQuery" placeholder="Search levels..." />
+   
+   <select class="tag-filter" v-model="selectedTag">
+     <option value="All">All Tags</option>
+     <option
+       v-for="tag in tags"
+       :key="tag.name"
+       :value="tag.name"
+     >
+       {{ tag.name }}
+     </option>
+   </select>
+</div>
         <table class="list" v-if="filteredList.length">
           <tr v-for="(item, i) in filteredList" :key="i">
             <td class="rank">
