@@ -177,6 +177,22 @@
 }
 .level-tag * {
     color: #ffffff !important;
+/* Light mode */
+body:not(.dark) .level-tag,
+body:not(.dark) .level-tag *,
+body:not(.dark) .level-tag span,
+body:not(.dark) .level-tag p {
+    color: #000000 !important;
+}
+
+body:not(.dark) .level-tag {
+    border-color: #555 !important;
+    background: rgba(0,0,0,0.08) !important;
+}
+
+body:not(.dark) .level-tag:hover {
+    background: rgba(0,0,0,0.13) !important;
+}
 }
 .tag-filter {
     width: 100%;
