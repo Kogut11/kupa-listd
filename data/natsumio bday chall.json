@@ -6,6 +6,12 @@
     "verifier": "coconut",
     "verification": "https://youtu.be/mEtrk1VOvdA",
     "percentToQualify": "100",
+    "tags": [
+        "Wave",
+        "Timings",
+        "Chokepoint",
+        "Precision"
+              ],
     "records": [
         {
             "user": "JameSharpener",
