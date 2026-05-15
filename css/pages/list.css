@@ -179,6 +179,18 @@
     background: rgba(255,255,255,0.12);
     transform: translateY(-1px);
 }
+
+/* Light mode support */
+body:not(.dark) .level-tag {
+    border-color: rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.05);
+    color: #222;
+}
+
+body:not(.dark) .level-tag:hover {
+    background: rgba(0,0,0,0.08);
+}
+}
 .tag-filter {
     width: 100%;
     margin-top: 12px;
