@@ -144,6 +144,15 @@ computed: {
         <div class="level">
           <h1>{{ selectedLevel.name }}</h1>
           <LevelAuthors :author="selectedLevel.author" :creators="selectedLevel.creators" :verifier="selectedLevel.verifier"></LevelAuthors>
+          <div class="level-description-container" v-if="level.description">
+    <div class="description-divider"></div>
+
+    <p class="level-description">
+        {{ level.description }}
+    </p>
+
+    <div class="description-divider"></div>
+</div>
         <iframe class="video" id="videoframe" :src="embed(selectedLevel.showcase || selectedLevel.verification)" frameborder="0"></iframe>
             <div
               class="level-tags"
