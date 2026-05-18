@@ -144,11 +144,11 @@ computed: {
         <div class="level">
           <h1>{{ selectedLevel.name }}</h1>
           <LevelAuthors :author="selectedLevel.author" :creators="selectedLevel.creators" :verifier="selectedLevel.verifier"></LevelAuthors>
-          <div class="level-description-container" v-if="level.description">
+          <div class="level-description-container" v-if="selectedLevel.description">
     <div class="description-divider"></div>
 
     <p class="level-description">
-        {{ level.description }}
+        {{ selectedLevel.description }}
     </p>
 
     <div class="description-divider"></div>
