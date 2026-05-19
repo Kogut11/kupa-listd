@@ -6,6 +6,13 @@
     "verifier": "Symm.",
     "verification": "https://youtu.be/0UTPuKpp6aM",
     "percentToQualify": "100",
+    "tags": ["Overall" , "Clicksync", "Chokepoints"],
     "records": [
+                {
+            "user": "puufy",
+            "link": "https://youtu.be/07Q3XZgMq-c",
+            "percent": 100,
+            "hz": 60
+        }
     ]
 }
