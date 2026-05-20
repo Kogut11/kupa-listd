@@ -30,6 +30,13 @@
             "link": "https://www.youtube.com/watch?v=-77-EIHYY0A",
             "percent": 100,
             "hz": 144
+        },
+                {
+            "user": "Probro675",
+            "link": "https://youtu.be/thPsLzewo1I?si=BiKrbaf-ac5qn4Ji",
+            "percent": 100,
+            "hz": 60,
+            "mobile": "true"
         }
     ]
 }
