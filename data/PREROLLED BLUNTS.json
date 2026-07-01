@@ -13,5 +13,11 @@
         "Fast-Paced"
             ],
     "records": [
+                {
+            "user": "JameSharpener",
+            "link": "https://youtu.be/EP0aKHT4emw",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
