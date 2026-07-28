@@ -48,6 +48,12 @@
             "link": "https://www.youtube.com/watch?v=sGQjb5fCzX4",
             "percent": 100,
             "hz": 360
+        },
+                {
+            "user": "SpazzaUK",
+            "link": "https://youtu.be/jM7gZPtVDf4",
+            "percent": 100,
+            "hz": 240
         }
     ]
 }
