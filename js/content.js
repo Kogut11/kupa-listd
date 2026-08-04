@@ -52,6 +52,7 @@ export async function fetchCountries() {
     } catch {
         return {};
     }
+}
 
 export async function fetchEditors() {
     try {
