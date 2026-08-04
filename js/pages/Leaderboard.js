@@ -145,6 +145,7 @@ export default {
     async mounted() {
         const [leaderboard, err] = await fetchLeaderboard();
         this.leaderboard = leaderboard;
+        this.countries = await fetchCountries();
         this.err = err;
 
         // Hide loading spinner
