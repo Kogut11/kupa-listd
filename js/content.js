@@ -52,6 +52,15 @@ export async function fetchEditors() {
         return editors;
     } catch {
         return null;
+
+        export async function fetchCountries() {
+    try {
+        const result = await fetch('/data/_countries.json');
+        return await result.json();
+    } catch {
+        return {};
+    }
+        }
     }
 }
 
@@ -113,14 +122,6 @@ export async function fetchLeaderboard() {
             });
         });
     });
-  export async function fetchCountries() {
-    try {
-        const result = await fetch('/data/_countries.json');
-        return await result.json();
-    } catch {
-        return {};
-    }
-  }
 
     // Wrap in extra Object containing the user and total score
     const res = Object.entries(scoreMap).map(([user, scores]) => {
