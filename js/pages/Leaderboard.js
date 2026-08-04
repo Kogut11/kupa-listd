@@ -9,6 +9,7 @@ export default {
     },
     data: () => ({
         leaderboard: [],
+        countries: {},
         loading: true,
         selected: 0,
         searchQuery: '',
