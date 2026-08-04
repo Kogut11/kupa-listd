@@ -47,14 +47,14 @@ export default {
                                 class="user"
                                 :class="{ 'active': selectedEntry === ientry }"
                             >
-
+    <button @click="selectPlayer(ientry)">
+        <span class="flag">{{ countries[ientry.user] || "" }}</span>
+        <span class="type-label-lg">{{ ientry.user }}</span>
+    </button>
+</td>
                             </td>
                         </tr>
                     </table>
-<button @click="selectPlayer(ientry)">
-    <span class="flag">{{ countries[ientry.user] || "" }}</span>
-    <span class="type-label-lg">{{ ientry.user }}</span>
-</button>
                     <p v-if="filteredLeaderboard.length === 0" class="no-results">
                         No players match your search.
                     </p>
