@@ -115,3 +115,22 @@
 .page-leaderboard .player .table a:hover {
     text-decoration: underline;
 }
+.player-button {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.player-name {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.flag {
+    font-size: 18px;
+    line-height: 1;
+}
