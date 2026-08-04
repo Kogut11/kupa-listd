@@ -47,11 +47,12 @@ export default {
                                 class="user"
                                 :class="{ 'active': selectedEntry === ientry }"
                             >
-    <button @click="selectPlayer(ientry)">
+                            <button @click="selectPlayer(ientry)" class="player-button">
+    <span class="type-label-lg player-name">
         <span class="flag">{{ countries[ientry.user] || "" }}</span>
-        <span class="type-label-lg">{{ ientry.user }}</span>
-    </button>
-</td>
+        {{ ientry.user }}
+    </span>
+</button>
                             </td>
                         </tr>
                     </table>
