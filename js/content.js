@@ -45,6 +45,14 @@ export async function fetchList() {
     }
 }
 
+export async function fetchCountries() {
+    try {
+        const result = await fetch('/data/_countries.json');
+        return await result.json();
+    } catch {
+        return {};
+    }
+
 export async function fetchEditors() {
     try {
         const editorsResults = await fetch(`${dir}/_editors.json`);
@@ -52,17 +60,9 @@ export async function fetchEditors() {
         return editors;
     } catch {
         return null;
-
-        export async function fetchCountries() {
-    try {
-        const result = await fetch('/data/_countries.json');
-        return await result.json();
-    } catch {
-        return {};
-    }
         }
     }
-}
+
 
 export async function fetchLeaderboard() {
     const list = await fetchList();
