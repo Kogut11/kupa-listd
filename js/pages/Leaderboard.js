@@ -43,10 +43,17 @@ export default {
                             <td class="total">
                                 <p class="type-label-lg">{{ localize(ientry.total) }}</p>
                             </td>
-                            <td
-                                class="user"
-                                :class="{ 'active': selectedEntry === ientry }"
-                            >
+
+                            <td class="country">
+                                <p class="type-label-lg">
+                                    {{ countries[ientry.user] || "" }}
+                                </p>
+                                </td>
+
+<td
+    class="user"
+    :class="{ 'active': selectedEntry === ientry }"
+>
                             <button @click="selectPlayer(ientry)" class="player-button">
     <span class="type-label-lg player-name">
         <span
