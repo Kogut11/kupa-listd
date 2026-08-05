@@ -165,4 +165,8 @@
     -ms-user-select: none;
     pointer-events: none;
     touch-action: manipulation;
+},
+.country {
+    width: 45px;
+    text-align: center;
 }
