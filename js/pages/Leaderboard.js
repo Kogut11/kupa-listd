@@ -54,12 +54,8 @@ export default {
     class="user"
     :class="{ 'active': selectedEntry === ientry }"
 >
-                            <button @click="selectPlayer(ientry)" class="player-button">
+<button @click="selectPlayer(ientry)" class="player-button">
     <span class="type-label-lg player-name">
-        <span
-    class="flag"
-    v-text="countries[ientry.user] || ''"
-></span>
         {{ ientry.user }}
     </span>
 </button>
