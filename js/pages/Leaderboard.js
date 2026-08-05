@@ -66,7 +66,11 @@ export default {
 
                 <div class="player-container" v-if="entry">
                     <div class="player">
-                        <h1>#{{ leaderboard.indexOf(entry) + 1 }} {{ entry.user }}</h1>
+                    <h1>
+                            #{{ leaderboard.indexOf(entry) + 1 }}
+                                {{ entry.user }}
+                            <span class="flag">{{ countries[entry.user] || "" }}</span>
+                    </h1>
                         <h3>{{ entry.total }}</h3>
 
                         <h2 v-if="entry.verified.length > 0">
