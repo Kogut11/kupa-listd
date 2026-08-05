@@ -139,6 +139,18 @@
     user-select: none;
     -webkit-user-select: none;
 }
+.page-leaderboard button {
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.page-leaderboard button:focus {
+    outline: none;
+}
+
+.page-leaderboard button:focus-visible {
+    outline: none;
+}
 
 .flag {
     user-select: none;
