@@ -49,7 +49,10 @@ export default {
                             >
                             <button @click="selectPlayer(ientry)" class="player-button">
     <span class="type-label-lg player-name">
-        <span class="flag">{{ countries[ientry.user] || "" }}</span>
+        <span
+    class="flag"
+    v-text="countries[ientry.user] || ''"
+></span>
         {{ ientry.user }}
     </span>
 </button>
