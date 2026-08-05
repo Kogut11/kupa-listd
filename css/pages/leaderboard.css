@@ -145,3 +145,12 @@
     -webkit-user-select: none;
     pointer-events: none;
 }
+.flag {
+    display: inline-block;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    pointer-events: none;
+    touch-action: manipulation;
+}
