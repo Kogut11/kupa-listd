@@ -45,6 +45,10 @@ export async function fetchList() {
     }
 }
 
+export async function fetchLegacy() {
+    return await fetchJSON("legacy.json");
+}
+
 export async function fetchCountries() {
     try {
         const result = await fetch('/data/_countries.json');
