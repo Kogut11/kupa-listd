@@ -30,6 +30,19 @@
 .page-leaderboard .board-container {
     padding-inline: 1rem;
 }
+.page-leaderboard .leaderboard-switch {
+    margin-bottom: 1rem;
+}
+
+.page-leaderboard .leaderboard-switch .tab {
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 1rem;
+}
+
+.page-leaderboard .leaderboard-switch .tab.selected {
+    border-bottom-color: var(--color-on-background);
+}
 .page-leaderboard .board-container .search-bar {
     margin-bottom: 15px;
 }
