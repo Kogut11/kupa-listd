@@ -10,6 +10,25 @@ export async function fetchTags() {
         return [];
     }
 }
+export async function fetchEditors() {
+    try {
+        const response = await fetch('/data/_editors.json');
+        return await response.json();
+    } catch (error) {
+        console.error('Failed to load editors:', error);
+        return [];
+    }
+}
+
+export async function fetchCountries() {
+    try {
+        const response = await fetch('/data/_countries.json');
+        return await response.json();
+    } catch (error) {
+        console.error('Failed to load countries:', error);
+        return {};
+    }
+}
 
 async function fetchListFile(file) {
     try {
