@@ -6,13 +6,14 @@ export default {
     components: {
         Spinner,
     },
-    data: () => ({
-        leaderboard: [],
-        countries: {},
-        loading: true,
-        selected: 0,
-        searchQuery: '',
-        err: [],
+data: () => ({
+    leaderboard: [],
+    countries: {},
+    loading: true,
+    selected: 0,
+    searchQuery: '',
+    err: [],
+    isLegacy: false,
     }),
     template: `
         <main v-if="loading">
