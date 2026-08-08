@@ -14,39 +14,60 @@ export async function fetchTags() {
   }
 }
 
-export async function fetchList() {
-    const listResult = await fetch(`${dir}/_list.json`);
+async function fetchListFile(file) {
     try {
-        const list = await listResult.json();
+        const response = await fetch(`${dir}/${file}`);
+
+        if (!response.ok) {
+            throw new Error(`HTTP ${response.status}`);
+        }
+
+        const list = await response.json();
+
+        if (!Array.isArray(list)) {
+            throw new Error(`${file} must contain an array`);
+        }
+
         return await Promise.all(
             list.map(async (path, rank) => {
                 const levelResult = await fetch(`${dir}/${path}.json`);
+
                 try {
                     const level = await levelResult.json();
+
                     return [
                         {
                             ...level,
                             path,
-                            records: level.records.sort(
-                                (a, b) => b.percent - a.percent,
-                            ),
+                            records: Array.isArray(level.records)
+                                ? level.records.sort(
+                                      (a, b) => b.percent - a.percent
+                                  )
+                                : [],
                         },
                         null,
                     ];
                 } catch {
-                    console.error(`Failed to load level #${rank + 1} ${path}.`);
+                    console.error(
+                        `Failed to load level #${rank + 1} ${path}.`
+                    );
+
                     return [null, path];
                 }
-            }),
+            })
         );
-    } catch {
-        console.error(`Failed to load list.`);
+    } catch (error) {
+        console.error(`Failed to load ${file}:`, error);
         return null;
     }
 }
 
+export async function fetchList() {
+    return await fetchListFile("_list.json");
+}
+
 export async function fetchLegacy() {
-    return await fetchJSON("legacy.json");
+    return await fetchListFile("_legacy.json");
 }
 
 export async function fetchCountries() {
