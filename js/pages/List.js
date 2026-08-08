@@ -18,9 +18,10 @@ const roleIconMap = {
 
 export default {
     components: { Spinner, LevelAuthors },
-  data: () => ({
+data: () => ({
     list: [],
     editors: [],
+    isLegacy: false,
     tags: [],
     selectedTag: "All",
     loading: true,
