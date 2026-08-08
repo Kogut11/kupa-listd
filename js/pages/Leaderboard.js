@@ -206,4 +206,4 @@ data: () => ({
         this.selected =
             this.leaderboard.indexOf(player);
     },
-},
+};
