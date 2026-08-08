@@ -73,6 +73,44 @@ computed: {
   methods: {
     embed,
     score,
+    async switchList(legacy) {
+        if (this.isLegacy === legacy) return;
+
+        this.isLegacy = legacy;
+        this.loading = true;
+        this.selected = 0;
+        this.errors = [];
+
+        this.list = legacy
+            ? await fetchLegacy()
+            : await fetchList();
+
+        if (!this.list) {
+            this.errors.push(
+                `Failed to load ${legacy ? "legacy" : "main"} list.`
+            );
+        } else {
+            this.errors.push(
+                ...this.list
+                    .filter(([_, err]) => err)
+                    .map(
+                        ([_, err]) =>
+                            `Failed to load level. (${err}.json)`
+                    )
+            );
+        }
+
+        this.loading = false;
+    },
+
+    getOriginalRank(level) {
+        let index = this.list.findIndex(
+            (item) => item[0] && item[0].id === level.id
+        );
+
+        return index >= 0 ? index + 1 : this.selected + 1;
+    },
+},
     getOriginalRank(level) {
       let index = this.list.findIndex(
         (item) => item[0] && item[0].id === level.id
