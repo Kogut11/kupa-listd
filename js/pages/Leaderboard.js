@@ -31,7 +31,7 @@ data: () => ({
     <button
         class="tab"
         :class="{ selected: !isLegacy }"
-        @click="switchList(false)"
+        @click="switchLeaderboard(false)"
     >
         LIST
     </button>
@@ -39,7 +39,7 @@ data: () => ({
     <button
         class="tab"
         :class="{ selected: isLegacy }"
-        @click="switchList(true)"
+        @click="switchLeaderboard(true)"
     >
         LEGACY
     </button>
