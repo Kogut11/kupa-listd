@@ -103,15 +103,6 @@ computed: {
 
         this.loading = false;
     },
-
-    getOriginalRank(level) {
-        let index = this.list.findIndex(
-            (item) => item[0] && item[0].id === level.id
-        );
-
-        return index >= 0 ? index + 1 : this.selected + 1;
-    },
-},
     getOriginalRank(level) {
       let index = this.list.findIndex(
         (item) => item[0] && item[0].id === level.id
