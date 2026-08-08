@@ -166,8 +166,26 @@ data: () => ({
     methods: {
         localize,
 
-        selectPlayer(player) {
-            this.selected = this.leaderboard.indexOf(player);
-        },
+    async switchLeaderboard(legacy) {
+        if (this.isLegacy === legacy) return;
+
+        this.isLegacy = legacy;
+        this.loading = true;
+        this.selected = 0;
+        this.searchQuery = '';
+        this.err = [];
+
+        const [leaderboard, err] =
+            await fetchLeaderboard(legacy);
+
+        this.leaderboard = leaderboard;
+        this.err = err;
+
+        this.loading = false;
     },
-};
+
+    selectPlayer(player) {
+        this.selected =
+            this.leaderboard.indexOf(player);
+    },
+},
