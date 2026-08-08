@@ -88,7 +88,6 @@ export async function fetchEditors() {
         return null;
         }
     }
-
 export async function fetchLeaderboard(legacy = false) {
     const list = legacy
         ? await fetchLegacy()
@@ -110,7 +109,6 @@ export async function fetchLeaderboard(legacy = false) {
             return;
         }
 
-        // Verification
         const verifier = Object.keys(scoreMap).find(
             (u) =>
                 u.toLowerCase() ===
@@ -136,7 +134,6 @@ export async function fetchLeaderboard(legacy = false) {
             link: level.verification,
         });
 
-        // Records
         level.records.forEach((record) => {
             const user = Object.keys(scoreMap).find(
                 (u) =>
@@ -215,4 +212,5 @@ export async function fetchLeaderboard(legacy = false) {
         ),
         errs
     ];
+}
 
