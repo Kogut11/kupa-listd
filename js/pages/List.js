@@ -144,9 +144,27 @@ computed: {
       <Spinner></Spinner>
     </main>
     <main v-else class="page-list">
-      <div class="list-container">
-        <!-- Search Bar -->
-<div class="search-bar">
+<div class="list-container">
+
+    <div class="tabs list-switch">
+        <button
+            class="tab"
+            :class="{ selected: !isLegacy }"
+            @click="switchList(false)"
+        >
+            LIST
+        </button>
+
+        <button
+            class="tab"
+            :class="{ selected: isLegacy }"
+            @click="switchList(true)"
+        >
+            LEGACY
+        </button>
+    </div>
+
+    <div class="search-bar">
    <input type="text" v-model="searchQuery" placeholder="Search levels..." />
    
    <select class="tag-filter" v-model="selectedTag">
