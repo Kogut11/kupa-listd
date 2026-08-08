@@ -26,9 +26,27 @@ data: () => ({
                         Leaderboard may be incorrect, as the following levels could not be loaded: {{ err.join(', ') }}
                     </p>
                 </div>
+            
+<div class="board-container">
+    <div class="tabs leaderboard-switch">
+        <button
+            class="tab"
+            :class="{ selected: !isLegacy }"
+            @click="switchLeaderboard(false)"
+        >
+            LIST
+        </button>
 
-                <div class="board-container">
-                    <div class="search-bar">
+        <button
+            class="tab"
+            :class="{ selected: isLegacy }"
+            @click="switchLeaderboard(true)"
+        >
+            LEGACY
+        </button>
+    </div>
+
+    <div class="search-bar">
                         <input
                             type="text"
                             v-model="searchQuery"
