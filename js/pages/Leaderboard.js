@@ -27,24 +27,24 @@ data: () => ({
                     </p>
                 </div>
             
-<div class="board-container">
-    <div class="tabs leaderboard-switch">
-        <button
-            class="tab"
-            :class="{ selected: !isLegacy }"
-            @click="switchLeaderboard(false)"
-        >
-            LIST
-        </button>
+<div class="tabs list-switch">
+    <button
+        class="tab"
+        :class="{ selected: !isLegacy }"
+        @click="switchList(false)"
+    >
+        LIST
+    </button>
 
-        <button
-            class="tab"
-            :class="{ selected: isLegacy }"
-            @click="switchLeaderboard(true)"
-        >
-            LEGACY
-        </button>
-    </div>
+    <button
+        class="tab"
+        :class="{ selected: isLegacy }"
+        @click="switchList(true)"
+    >
+        LEGACY
+    </button>
+</div>
+
 
     <div class="search-bar">
                         <input
