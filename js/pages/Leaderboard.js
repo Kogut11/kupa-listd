@@ -181,8 +181,8 @@ data: () => ({
         // Hide loading spinner
         this.loading = false;
     },
-    methods: {
-        localize,
+methods: {
+    localize,
 
     async switchLeaderboard(legacy) {
         if (this.isLegacy === legacy) return;
@@ -206,4 +206,5 @@ data: () => ({
         this.selected =
             this.leaderboard.indexOf(player);
     },
+},
 };
