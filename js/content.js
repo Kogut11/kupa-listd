@@ -215,3 +215,21 @@ export async function fetchLeaderboard(legacy = false) {
         ),
         errs
     ];
+      // Wrap in extra Object containing the user and total score
+    const res = Object.entries(scoreMap).map(([user, scores]) => {
+        const { verified, completed, progressed } = scores;
+        const total = [verified, completed, progressed]
+            .flat()
+            .reduce((prev, cur) => prev + cur.score, 0);
+
+        return {
+            user,
+            total: round(total),
+            ...scores,
+        };
+    });
+
+    // Sort by total score
+    return [res.sort((a, b) => b.total - a.total), errs];
+}
+
