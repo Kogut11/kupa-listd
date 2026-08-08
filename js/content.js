@@ -30,10 +30,38 @@ async function fetchListFile(file) {
 
         return await Promise.all(
             list.map(async (path, rank) => {
-                const levelResult = await fetch(`${dir}/${path}.json`);
+          const levelResult = await fetch(`${dir}/${path}.json`);
 
-                try {
-                    const level = await levelResult.json();
+if (!levelResult.ok) {
+    console.error(
+        `Failed to load level #${rank + 1}: ${path}.json`
+    );
+
+    return [null, path];
+}
+
+try {
+    const level = await levelResult.json();
+
+    return [
+        {
+            ...level,
+            path,
+            records: Array.isArray(level.records)
+                ? level.records.sort(
+                      (a, b) => b.percent - a.percent
+                  )
+                : [],
+        },
+        null,
+    ];
+} catch {
+    console.error(
+        `Failed to parse level #${rank + 1}: ${path}.json`
+    );
+
+    return [null, path];
+}
 
                     return [
                         {
