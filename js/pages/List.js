@@ -3,7 +3,7 @@
 import { store } from "../main.js";
 import { embed } from "../util.js";
 import { score } from "../score.js";
-import {fetchEditors,fetchList,fetchLegacy,fetchTags} from "../content.js";
+import { fetchEditors, fetchList, fetchTags } from "../content.js";
 
 import Spinner from "../components/Spinner.js";
 import LevelAuthors from "../components/List/LevelAuthors.js";
@@ -18,10 +18,9 @@ const roleIconMap = {
 
 export default {
     components: { Spinner, LevelAuthors },
-data: () => ({
+  data: () => ({
     list: [],
     editors: [],
-    isLegacy: false,
     tags: [],
     selectedTag: "All",
     loading: true,
@@ -74,42 +73,12 @@ computed: {
   methods: {
     embed,
     score,
-    async switchList(legacy) {
-        if (this.isLegacy === legacy) return;
-
-        this.isLegacy = legacy;
-        this.loading = true;
-        this.selected = 0;
-        this.errors = [];
-
-        this.list = legacy
-            ? await fetchLegacy()
-            : await fetchList();
-
-        if (!this.list) {
-            this.errors.push(
-                `Failed to load ${legacy ? "legacy" : "main"} list.`
-            );
-        } else {
-            this.errors.push(
-                ...this.list
-                    .filter(([_, err]) => err)
-                    .map(
-                        ([_, err]) =>
-                            `Failed to load level. (${err}.json)`
-                    )
-            );
-        }
-
-        this.loading = false;
-    },
     getOriginalRank(level) {
-    if (!level) return 0;
-    const index = this.list.findIndex(
+      let index = this.list.findIndex(
         (item) => item[0] && item[0].id === level.id
-    );
-    return index >= 0 ? index + 1 : this.selected + 1;
-},
+      );
+      return index >= 0 ? index + 1 : this.selected + 1;
+    },
   },
   async mounted() {
     this.list = await fetchList();
@@ -136,27 +105,9 @@ computed: {
       <Spinner></Spinner>
     </main>
     <main v-else class="page-list">
-<div class="list-container">
-
-    <div class="tabs list-switch">
-        <button
-            class="tab"
-            :class="{ selected: !isLegacy }"
-            @click="switchList(false)"
-        >
-            LIST
-        </button>
-
-        <button
-            class="tab"
-            :class="{ selected: isLegacy }"
-            @click="switchList(true)"
-        >
-            LEGACY
-        </button>
-    </div>
-
-    <div class="search-bar">
+      <div class="list-container">
+        <!-- Search Bar -->
+<div class="search-bar">
    <input type="text" v-model="searchQuery" placeholder="Search levels..." />
    
    <select class="tag-filter" v-model="selectedTag">
