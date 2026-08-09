@@ -6,14 +6,13 @@ export default {
     components: {
         Spinner,
     },
-data: () => ({
-    leaderboard: [],
-    countries: {},
-    loading: true,
-    selected: 0,
-    searchQuery: '',
-    err: [],
-    isLegacy: false,
+    data: () => ({
+        leaderboard: [],
+        countries: {},
+        loading: true,
+        selected: 0,
+        searchQuery: '',
+        err: [],
     }),
     template: `
         <main v-if="loading">
@@ -26,27 +25,9 @@ data: () => ({
                         Leaderboard may be incorrect, as the following levels could not be loaded: {{ err.join(', ') }}
                     </p>
                 </div>
-            
-<div class="tabs list-switch">
-    <button
-        class="tab"
-        :class="{ selected: !isLegacy }"
-        @click="switchLeaderboard(false)"
-    >
-        LIST
-    </button>
 
-    <button
-        class="tab"
-        :class="{ selected: isLegacy }"
-        @click="switchLeaderboard(true)"
-    >
-        LEGACY
-    </button>
-</div>
-
-
-    <div class="search-bar">
+                <div class="board-container">
+                    <div class="search-bar">
                         <input
                             type="text"
                             v-model="searchQuery"
@@ -181,30 +162,11 @@ data: () => ({
         // Hide loading spinner
         this.loading = false;
     },
-methods: {
-    localize,
+    methods: {
+        localize,
 
-    async switchLeaderboard(legacy) {
-        if (this.isLegacy === legacy) return;
-
-        this.isLegacy = legacy;
-        this.loading = true;
-        this.selected = 0;
-        this.searchQuery = '';
-        this.err = [];
-
-        const [leaderboard, err] =
-            await fetchLeaderboard(legacy);
-
-        this.leaderboard = leaderboard;
-        this.err = err;
-
-        this.loading = false;
+        selectPlayer(player) {
+            this.selected = this.leaderboard.indexOf(player);
+        },
     },
-
-    selectPlayer(player) {
-        this.selected =
-            this.leaderboard.indexOf(player);
-    },
-},
 };
