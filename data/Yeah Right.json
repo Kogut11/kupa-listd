@@ -1,0 +1,23 @@
+{
+    "id": 144367920,
+    "name": "Yeah Right",
+    "author": "Verdant",
+    "creators": ["Verdant"],
+    "verifier": "rkxlol",
+    "verification": "https://youtu.be/XOb26Krwhro",
+    "percentToQualify": "100",
+    "records": [
+                {
+            "user": "JameSharpener",
+            "link": "https://youtu.be/hBaBdfPTYd0",
+            "percent": 100,
+            "hz": "CBF"
+        },
+                {
+            "user": "Ewen",
+            "link": "https://youtu.be/WY4MMkTuC0Y",
+            "percent": 100,
+            "hz": "CBS"
+        }
+    ]
+}
