@@ -1,0 +1,16 @@
+{
+    "id": 144393076,
+    "name": "soup",
+    "author": "NomadGMD",
+    "creators": ["NomadGMD"],
+    "verifier": "NomadGMD",
+    "verification": "https://youtu.be/p-D_skE8Z-g",
+    "percentToQualify": "100",
+    "records": [
+                {
+            "user": "Ewen",
+            "link": "https://youtu.be/WY4MMkTuC0Y",
+            "percent": 100,
+            "hz": "CBS"
+        }
+    ]
