@@ -1,0 +1,17 @@
+{
+    "id": 144444997,
+    "name": "Buttered Pancakes",
+    "author": "Verdant",
+    "creators": ["Verdant"],
+    "verifier": "rkxlol",
+    "verification": "https://youtu.be/l3TVzunSKbQ ",
+    "percentToQualify": "100",
+    "records": [
+                {
+            "user": "Ewen",
+            "link": "https://youtu.be/WY4MMkTuC0Y",
+            "percent": 100,
+            "hz": "CBS"
+        }
+    ]
+}
