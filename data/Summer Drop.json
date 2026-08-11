@@ -1,0 +1,53 @@
+{
+    "id": 144081326,
+    "name": "Summer Drop",
+    "author": "Verdant",
+    "creators": ["Verdant"],
+    "verifier": "rkxlol",
+    "verification": "https://youtu.be/bX2rfTzrDLo",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "puufy",
+            "link": "https://medal.tv/games/geometry-dash/clips/n2CSI9K9M2MUfZ7lF?invite=cr-MSxleWosNDM4MjQ3MjE4",
+            "percent": 100,
+            "hz": 36  
+        },
+        {
+            "user": "Symm.",
+            "link": "https://medal.tv/games/geometry-dash/clips/n2D2AGE5l4ZXnJQgA?invite=cr-MSxrM0YsNDMyMzU1MDM3&v=16",
+            "percent": 100,
+            "hz": "CBS"  
+        },
+        {
+            "user": "JameSharpener",
+            "link": "https://youtu.be/r8e_nUy5O6g",
+            "percent": 100,
+            "hz": "CBF"
+        },
+        {
+            "user": "Paradox",
+            "link": "https://youtu.be/joUnFN4hOXo",
+            "percent": 100,
+            "hz": "240"
+        },
+                {
+            "user": "Snale Lorde",
+            "link": "https://www.youtube.com/watch?v=Wn8vrTgAmKM",
+            "percent": 100,
+            "hz": "720"
+        },
+        {
+            "user": "Pentamery",
+            "link": "https://discord.com/channels/1522191606571073576/1522770004058050581/1522778487193075723",
+            "percent": 100,
+            "hz": "CBF"
+        },
+                {
+            "user": "Ewen",
+            "link": "https://youtu.be/WY4MMkTuC0Y",
+            "percent": 100,
+            "hz": "CBS"
+        }
+    ]
+}
