@@ -1,0 +1,35 @@
+{
+    "id": 144023081,
+    "name": "Hallow",
+    "author": "InfiniteParadox",
+    "creators": ["InfiniteParadox"],
+    "verifier": "Paradox",
+    "verification": "https://youtu.be/SDxKakA3bAE",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "LukeGammoneese",
+            "link": "https://www.youtube.com/watch?v=zSHgPga3qF8",
+            "percent": 100,
+            "hz": "240"
+        },
+                                {
+            "user": "Snale Lorde",
+            "link": "https://www.youtube.com/watch?v=6sxRszhlh6g",
+            "percent": 100,
+            "hz": "720"
+        },
+                                {
+            "user": "JameSharpener",
+            "link": "https://youtu.be/HExE4xOyTIo",
+            "percent": 100,
+            "hz": "CBF"
+        },
+                {
+            "user": "Ewen",
+            "link": "https://youtu.be/WY4MMkTuC0Y",
+            "percent": 100,
+            "hz": "CBS"
+        }
+    ]
+}
