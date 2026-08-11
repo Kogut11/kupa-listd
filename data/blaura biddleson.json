@@ -1,0 +1,53 @@
+{
+    "id": 144058452,
+    "name": "blaura biddleson",
+    "author": "JameSharpener",
+    "creators": ["JameSharpener"],
+    "verifier": "JameSharpener",
+    "verification": "https://youtu.be/H1IhSX6OPxo",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "Symm.",
+            "link": "https://medal.tv/games/geometry-dash/clips/n2CLGHBUKD1FClsXl?invite=cr-MSxUWVksNDMyMzU1MDM3&v=20",
+            "percent": 100,
+            "hz": "CBS"  
+        },
+        {
+            "user": "puufy",
+            "link": "https://medal.tv/games/geometry-dash/clips/n2D5017gVN_YGmwXs?invite=cr-MSx1Y2EsNDM4MjQ3MjE4&v=19",
+            "percent": 100,
+            "hz": 36  
+        },
+        {
+            "user": "rkxlol",
+            "link": "https://youtu.be/VhvEHwNs8J8",
+            "percent": 100,
+            "hz": "idk"
+        },
+        {
+            "user": "Paradox",
+            "link": "https://youtu.be/BlPsrTCAtrc",
+            "percent": 100,
+            "hz": "240"
+        },
+                {
+            "user": "Snale Lorde",
+            "link": "https://www.youtube.com/watch?v=Wn8vrTgAmKM",
+            "percent": 100,
+            "hz": "720"
+        },
+        {
+            "user": "Pentamery",
+            "link": "https://discord.com/channels/1522191606571073576/1522770004058050581/1522778487193075723",
+            "percent": 100,
+            "hz": "CBF"
+        },
+                {
+            "user": "Ewen",
+            "link": "https://youtu.be/WY4MMkTuC0Y",
+            "percent": 100,
+            "hz": "CBS"
+        }
+    ]
+}
