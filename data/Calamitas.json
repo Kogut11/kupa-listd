@@ -1,0 +1,23 @@
+{
+    "id": 144378543,
+    "name": "Calamitas",
+    "author": "Symmetrics",
+    "creators": ["Symm."],
+    "verifier": "Symm.",
+    "verification": "https://youtu.be/YhqjtYacYkQ?si=31dbhmRhchI-svrr",
+    "percentToQualify": "100",
+    "records": [
+                {
+            "user": "Ewen",
+            "link": "https://youtu.be/WY4MMkTuC0Y",
+            "percent": 100,
+            "hz": "CBS"
+        },
+                {
+            "user": "rkxlol",
+            "link": "https://youtu.be/92LAdSzekZM",
+            "percent": 100,
+            "hz": "idk"
+        }
+    ]
+}
