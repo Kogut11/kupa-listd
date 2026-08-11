@@ -7,5 +7,11 @@
     "verification": "https://youtu.be/oOlk4QlWtZY",
     "percentToQualify": "100",
     "records": [
+                {
+            "user": "puufy",
+            "link": "https://youtu.be/dHhVVDIiFC4",
+            "percent": 100,
+            "hz": 36
+        }
     ]
 }
