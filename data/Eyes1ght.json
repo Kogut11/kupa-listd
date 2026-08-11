@@ -1,0 +1,17 @@
+{
+    "id": 144230904,
+    "name": "Eyes1ght",
+    "author": "puufy",
+    "creators": ["puufy"],
+    "verifier": "Snale Lorde",
+    "verification": "https://youtu.be/T96B2IX68F4?si=OdppyHBrr_TAFcqi",
+    "percentToQualify": "100",
+    "records": [
+                {
+            "user": "Ewen",
+            "link": "https://youtu.be/WY4MMkTuC0Y",
+            "percent": 100,
+            "hz": "CBS"
+        }
+    ]
+}
