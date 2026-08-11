@@ -1,0 +1,47 @@
+{
+    "id": 144090908,
+    "name": "Robbing Wells Fargo",
+    "author": "Verdant",
+    "creators": ["Verdant"],
+    "verifier": "Verdant",
+    "verification": "https://youtu.be/i5WE81df7Mc",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "Snale Lorde",
+            "link": "https://www.youtube.com/watch?v=Wn8vrTgAmKM",
+            "percent": 100,
+            "hz": "720"
+        },
+        {
+            "user": "Pentamery",
+            "link": "https://discord.com/channels/1522191606571073576/1522742885814894752/1522742885814894752",
+            "percent": 100,
+            "hz": "CBF"
+        },
+        {
+            "user": "Paradox",
+            "link": "https://youtu.be/2KmL1rL-M-E",
+            "percent": 100,
+            "hz": "240"
+        },
+        {
+            "user": "LukeGammoneese",
+            "link": "https://www.youtube.com/watch?v=C1pv7W6hKDc",
+            "percent": 100,
+            "hz": "240"
+        },
+                                {
+            "user": "JameSharpener",
+            "link": "https://youtu.be/HExE4xOyTIo",
+            "percent": 100,
+            "hz": "CBF"
+        },
+                {
+            "user": "Ewen",
+            "link": "https://youtu.be/WY4MMkTuC0Y",
+            "percent": 100,
+            "hz": "CBS"
+        }
+    ]
+}
