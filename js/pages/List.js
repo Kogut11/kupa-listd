@@ -154,16 +154,13 @@ computed: {
     <div class="description-divider"></div>
 </div>
         <iframe class="video" id="videoframe" :src="embed(selectedLevel.showcase || selectedLevel.verification)" frameborder="0"></iframe>
-            <div
-              class="level-tags"
-          v-if="selectedLevel.tags && selectedLevel.tags.length"
-        >
-              <span
-                class="level-tag"
-                v-for="tag in selectedLevel.tags"
-                :key="tag"
-        >
-     {{ tag }}
+            <div class="level-tags" v-if="selectedLevel && Array.isArray(selectedLevel.tags) && selectedLevel.tags.length > 0">
+  <span
+    v-for="tag in selectedLevel.tags"
+    :key="tag"
+    class="level-tag"
+  >
+    {{ tag }}
   </span>
 </div>
 <ul class="stats">
